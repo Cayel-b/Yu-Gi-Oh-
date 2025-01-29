@@ -4,7 +4,7 @@ const cartoes = document.querySelectorAll(".cartao");
 let cartaoAtual = 0;
 
 cartoes.forEach(cartao => {
-  cartao.addEventListener("click", function(){
+  cartao.addEventListener("click", function () {
     const cartaVirada = cartao.querySelector(".carta-virada");
 
     //virar o cartao
@@ -16,7 +16,7 @@ cartoes.forEach(cartao => {
     descricao.classList.toggle("esconder");
 
   });
-  
+
 })
 
 
